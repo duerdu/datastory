@@ -1,0 +1,21 @@
+.bigface {
+  font-size: 150%;
+  font-weight: bold;
+  line-height: 250%;
+}
+
+.smallface {
+  font-size: 50%;
+  font-weight: bold;
+}
+
+.bigfont {
+  font-size: 125%;
+  font-weight: bold;
+  font-family: "SimSun";
+}
+
+.smallfont {
+  font-size: 75%;
+  font-family: "SimSun";
+}
