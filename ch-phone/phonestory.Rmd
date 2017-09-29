@@ -1,0 +1,33 @@
+---
+title: "ch-phone 运营商数据分析"
+author: "小强, beitta#微信, ddqquu#qq.com"
+date: "`r Sys.Date()`"
+output:  ioslides_presentation
+logo: ../img/rlogo.png
+css: ../css/custom.css
+
+---
+
+## 手机、男人与猫狗
+**究竟是你在看着手机，还是手机在看着你**  
+![mathpsy](../img/phone-man-dog.jpg)  
+
+## 黑客帝国
+**原来证明你是□你，现在证明\@你是你**
+![mathpsy](../img/man-in-phone.jpg) 
+
+
+## 数据 
+-  **场景**  
+S(手机，用户，)
+$$f\left(k; n, p\right) = \binom{n}{k} p^k \left(1-p\right)^{n-k}$$
+
+
+
+
+## 参考
+![1]:谢益辉,2010,"统计图形和模拟视角下的模型理论解析".  
+![2]:达莱尔,廖颖林译,2002,《统计陷阱》.  
+![3]:耿直,2009,"如何从生命科学研究数据中挖掘因果关系和评价因果作用？"  
+
+

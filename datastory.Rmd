@@ -32,7 +32,9 @@ options(htmltools.dir.version = FALSE)
 .smallfont[
 .footnote[[*]powered by [xaringan](https://github.com/yihui/xaringan)@[Yihui Xie](https://yihui.name),[emojione](https://github.com/emojione/emojione)]    
 ]
+
 ???
+不评价剂量与毒性的关联，质疑的出发点是要讲程度与条件，做一些判断都是在一定的条件下给出的。
 倒不是说数字捏造，而是讲统计是有假设的，介绍的过程中不能把背景、样本等情况一一罗列，所以呢，如果提到一些数字均不代表官方意见，仅作示例用~
 背景图片来源：[tradesmartu](http://www.tradesmartu.com/blog/dire-warning-dow-theory)
 
@@ -82,6 +84,28 @@ class: inverse
 
 ???
 
+---
+class: inverse
+
+## 讲个故事
+
+- 宅男的一天  
+.bigface[ .convert-emoji[:alarm_clock:] .convert-emoji[:bed:] ]起床—
+.bigface[ .convert-emoji[:iphone:] .convert-emoji[:computer:] ]手机—
+.bigface[ .convert-emoji[:shopping_cart:] .convert-emoji[:pancakes:] ]早点—  
+.bigface[ .convert-emoji[:white_sun_rain_cloud:] .convert-emoji[:taxi:] ]出门—
+.bigface[ .convert-emoji[:chart_with_upwards_trend:] .convert-emoji[:mag:] ]股票—
+.bigface[ .convert-emoji[:woman_teacher:] .convert-emoji[:man_mechanic:] ]工作—  
+.bigface[ .convert-emoji[:calling:] .convert-emoji[:bento:] ]午餐—
+.bigface[ .convert-emoji[:woman_teacher:] .convert-emoji[:man_mechanic:] ]工作—
+.bigface[ .convert-emoji[:convenience_store:] .convert-emoji[:coffee:] ]下午茶—  
+.bigface[ .convert-emoji[:performing_arts:] .convert-emoji[:cinema:] ]
+.bigface[ .convert-emoji[:badminton:] .convert-emoji[:microphone:] ]
+.bigface[ .convert-emoji[:couple_with_heart:] .convert-emoji[:person_in_bed_tone1:] ]夜生活 
+- 其他
+.bigface[ .convert-emoji[:airplane_departure:] .convert-emoji[:milky_way:] ]
+.bigface[ .convert-emoji[:video_game:] .convert-emoji[:mahjong:] ]
+.bigface[ .convert-emoji[:ambulance:] .convert-emoji[:police_car:] ] 。。。
 
 ---
 class: inverse, center, middle
