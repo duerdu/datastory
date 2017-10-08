@@ -7,8 +7,6 @@ output:
   xaringan::moon_reader:
     css: ["../css/zh-CN.css","../css/emojione.min.css","../css/custom.css"]
     chakra: "../libs/remarkjs/remark-latest.min.js"
-    includes:
-      after_body: "../libs/after2.html"
     lib_dir: libs
     nature:
       highlightStyle: github
