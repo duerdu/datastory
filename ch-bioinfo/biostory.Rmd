@@ -1,0 +1,130 @@
+---
+title: "ch-bioinfo 生物数据分析"
+subtitle: "生物与信息学"
+author: '小强 <img style="width:30px;" src="../img/weixin.png" /> .bigfont[beitta , ddqquu#qq.com]'
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    css: ["../css/zh-CN.css","../css/emojione.min.css","../css/custom.css"]
+    chakra: "../libs/remarkjs/remark-latest.min.js"
+    includes:
+      after_body: "../libs/after2.html"
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+
+---
+class: center, middle 
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+### 两大好奇：探索自我、探索宇宙
+**中医之道：望闻问切**  
+![mathpsy](../img/zhongyi.jpg)  
+
+???
+从极小到极大，人们的探索从未停歇。
+
+---
+class: center, middle
+### 两大好奇：探索自我、探索宇宙
+**西医之术：实验解剖**  
+![mathpsy](../img/xiyi.jpg)  
+
+???
+从极小到极大，人们的探索从未停歇。
+
+---
+# 三个关注点
+## 数据 
+## 问题
+## 方法
+
+
+---
+### <font color='blue'>数据</font>－问题－方法 
+- **场景** 
+#### Set(实验，基因，经络)
+1. 实验：实证科学，量化配比，没有小白鼠，就没有你我他
+1. 基因：RNA、遗传、合成药
+1. 经络：穴位、针灸、风水
+
+- **数据** 
+通话、短信、流量、缴费、漫游... 
+
+???
+孟德尔豌豆实验，
+
+---
+### 数据－<font color='blue'>问题－方法</font> 
+- **药物设计 CRO** 
+1. 用户：从匿名，到实名认证
+1. 手机：从功能机，到智能机
+1. 运营商：从通话，到流量
+
+- **数据** 
+一个药物的诞生过程 
+
+---
+### 数据－<font color='blue'>问题－方法</font> 
+- **临床测试 安慰剂** 
+1. 用户：从匿名，到实名认证
+1. 手机：从功能机，到智能机
+1. 运营商：从通话，到流量
+
+- **数据** 
+通话、短信、流量、缴费、漫游... 
+
+### 数据－<font color='blue'>问题－方法</font> 
+- **脑电 信号处理** 
+1. 用户：从匿名，到实名认证
+1. 手机：从功能机，到智能机
+1. 运营商：从通话，到流量
+
+- **数据** 
+通话、短信、流量、缴费、漫游... 
+
+### 数据－<font color='blue'>问题－方法</font> 
+- **测序比对** 
+1. 用户：从匿名，到实名认证
+1. 手机：从功能机，到智能机
+1. 运营商：从通话，到流量
+
+- **数据** 
+通话、短信、流量、缴费、漫游... 
+
+### 数据－<font color='blue'>问题－方法</font> 
+- **蛋白折叠** 
+1. 用户：从匿名，到实名认证
+1. 手机：从功能机，到智能机
+1. 运营商：从通话，到流量
+
+- **数据** 
+靶点预测
+
+
+### 数据－<font color='blue'>问题－方法</font> 
+- **传导通路** 
+1. 用户：从匿名，到实名认证
+1. 手机：从功能机，到智能机
+1. 运营商：从通话，到流量
+
+- **数据** 
+牵一发以动全身，吃一丸以遍周体，
+测谎仪可以考虑在这儿讲
+
+？？？ 多维偏好分析到例子
+
+---
+class: center, middle
+
+## 谢谢
+
+.smallfont[
+.footnote[[*]powered by [xaringan](https://github.com/yihui/xaringan)@[Yihui Xie](https://yihui.name),[emojione](https://github.com/emojione/emojione)]    
+]
+

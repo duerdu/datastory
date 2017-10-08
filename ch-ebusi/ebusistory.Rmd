@@ -1,0 +1,93 @@
+---
+title: "ch-esearch 电商数据分析"
+subtitle: "足不出户 乐享一生"
+author: '小强 <img style="width:30px;" src="../img/weixin.png" /> .bigfont[beitta , ddqquu#qq.com]'
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    css: ["../css/zh-CN.css","../css/emojione.min.css","../css/custom.css"]
+    chakra: "../libs/remarkjs/remark-latest.min.js"
+    includes:
+      after_body: "../libs/after2.html"
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+
+---
+class: center, middle 
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+### 线下与线上的界限越发模糊
+**信息化提升了经贸流通的效率**  
+![mathpsy](../img/ebusi.jpg)  
+???
+电商、物流、移动、
+
+---
+# 三个关注点
+## 数据 
+## 问题
+## 方法
+
+
+---
+### <font color='blue'>数据</font>－问题－方法 
+- **场景** 
+#### Set(用户，商品，平台)
+电商
+商品从生产到消费完成，才算完成使命。
+
+- **数据**  
+浏览、搜索、比价、下单、物流、评论、投诉... 
+
+???
+线上线下的融合越来越深入，这里的平台，泛指零售和电商。接下来的部分问题，是线下零售和线上电商都要考虑的。
+
+---
+### 数据－<font color='blue'>问题－方法</font> 
+- **推荐系统** 
+大超市的货架摆放
+电商平台的推荐
+
+- **从cf到dl** 
+检索方法 
+
+---
+### 数据－<font color='blue'>问题－方法</font> 
+- **会员** 
+1. 用户：从匿名，到实名认证
+1. 手机：从功能机，到智能机
+1. 运营商：从通话，到流量
+
+- **分群** 
+意图分析、词包... 
+
+### 数据－<font color='blue'>问题－方法</font> 
+- **促销** 
+博弈论，
+
+- **第二出价** 
+通话、短信、流量、缴费、漫游... 
+
+### 数据－<font color='blue'>问题－方法</font> 
+- **周转** 
+出的钱多，就会点么
+
+- **销量预估** 
+从LR到DL 
+
+
+---
+class: center, middle
+
+## 谢谢
+
+.smallfont[
+.footnote[[*]powered by [xaringan](https://github.com/yihui/xaringan)@[Yihui Xie](https://yihui.name),[emojione](https://github.com/emojione/emojione)]    
+]
+

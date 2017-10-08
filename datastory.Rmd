@@ -1,11 +1,12 @@
 ---
 title: "数据与统计的故事"
 subtitle: "生活工作中的数据"
-author: '小强 <img style="width:30px;" src="./img/weixin.png" />  .bigfont[beitta] '
+author: '小强 <img style="width:30px;" src="./img/weixin.png" /> .bigfont[beitta , ddqquu#qq.com]'
 date: "`r Sys.Date()`"
 output:
   xaringan::moon_reader:
     css: ["css/zh-CN.css","css/emojione.min.css","css/custom.css"]
+    chakra: "libs/remarkjs/remark-latest.min.js"
     includes:
       after_body: "libs/after.html"
     lib_dir: libs
@@ -107,10 +108,54 @@ class: inverse
 .bigface[ .convert-emoji[:video_game:] .convert-emoji[:mahjong:] ]
 .bigface[ .convert-emoji[:ambulance:] .convert-emoji[:police_car:] ] 。。。
 
+???
+午餐叫外卖，手机支付，引入金融
+
 ---
 class: inverse, center, middle
 
-<img style="width:30px;" src="./img/weixin.png" /> .bigfont[beitta]
+## 更多课题
+
+- 回顾一下这匆匆一天，所涉广泛
+精密仪器、硬件、操作系统等等，支撑运转的基础设施，我们有几贡献。
+多少大公司的xx科学家，是从海外而来。。
+
+- [R统计大会](https://github.com/yihui/xaringan)
+<img style="width:30px;" src="./img/Rconf.png" /> 
+
+
+---
+class: inverse, center, middle
+
+## 数据有风险，从业需谨慎
+- 2017年6月1日 
+- [中华人民共和国网络安全法](http://www.miit.gov.cn/n1146295/n1146557/n1146614/c5345009/content.html)
+- [最高人民法院、最高人民检察院关于办理侵犯公民个人信息刑事案件适用法律若干问题的解释](http://www.court.gov.cn/fabu-xiangqing-43942.html)
+
+???
+企业自产数据，服务内部应用。  
+
+---
+class: inverse, middle
+
+## 小结
+- 运筹帷幄、决胜千里
+- 一沙一世界，公式探乾坤。 
+  数学与统计的视角，不只是目之所及之花花世界的苟且应用，还有**美和真理** 。
+- 不忘初心 
+  有一天当你终将掌握某些数字的生杀大权时，希望能**不忘初心**
+
+???
+走马观花介绍了这么多所谓场景，于我自己已经是于你们想来大部分也都是看客，所以此时此刻忽略它们就好。最后，讲三句话送给大家：
+1.在这个数据横飞的时代，运筹帷幄、决胜千里，非你们莫属，前面所讲种种都是些小小案例。
+除了前面这个宅男无聊一天的故事，下面2句是更想讲与大家的。
+2.数学与统计不只是花花世界的苟且，还有美和真理。这沙这世界这公式这乾坤，下至微渺，上至宏宇，太多太多的未知了，你们不好奇么。大学也不只是社会的预科班，更应是人类探索的担当。
+3.不忘初心
+
+---
+class: inverse, center, middle
+
+<img style="width:30px;" src="./img/weixin.png" /> .bigfont[beitta , ddqquu#qq.com]
 
 --
 ## 谢谢

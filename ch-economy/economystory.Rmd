@@ -1,0 +1,94 @@
+---
+title: "ch-economy 经济数据分析"
+subtitle: "社会人 经济人"
+author: '小强 <img style="width:30px;" src="../img/weixin.png" /> .bigfont[beitta , ddqquu#qq.com]'
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    css: ["../css/zh-CN.css","../css/emojione.min.css","../css/custom.css"]
+    chakra: "../libs/remarkjs/remark-latest.min.js"
+    includes:
+      after_body: "../libs/after2.html"
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+
+---
+class: center, middle 
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+### 社会性与经济性
+**群体与交换**  
+![mathpsy](../img/economy.jpg)  
+
+---
+# 三个关注点
+## 数据 
+## 问题
+## 方法
+
+
+---
+### <font color='blue'>数据</font>－问题－方法 
+- **场景** 
+#### Set(人，财，物)
+提高生活质量，必然走向分工与交换。人人为我，我为人人，在交换的当下其实是实现的。
+老板对我讲：商人是最美丽的人，他们把一批人生产的东西带给另一批人消费，从事的是最为利他的行为。
+
+- **数据**  
+不限了，有人的地方就有经济，一个人也有。 
+
+???
+线上线下的融合越来越深入，这里的平台，泛指零售和电商。接下来的部分问题，是线下零售和线上电商都要考虑的。
+
+---
+### 数据－<font color='blue'>问题－方法</font> 
+- **证券市场** 
+不只是股票，切个股票图
+
+- **量化** 
+指标
+预测
+hht
+
+---
+### 数据－<font color='blue'>问题－方法</font> 
+- **统计局** 
+统计指数，从局网站切个说明
+
+- **抽样** 
+意图分析、词包... 
+
+### 数据－<font color='blue'>问题－方法</font> 
+- **计量经济学** 
+供需平衡
+投资组合
+
+- **从回归到结构方程** 
+通话、短信、流量、缴费、漫游... 
+
+### 数据－<font color='blue'>问题－方法</font> 
+- **排名排序** 
+国家、地区、学校、
+要资源、影响力等等
+
+- **层次分析法** 
+经验与统计到结合 
+
+???
+做过城市到、图书馆到、商家商户的等等各种排名
+
+---
+class: center, middle
+
+## 谢谢
+
+.smallfont[
+.footnote[[*]powered by [xaringan](https://github.com/yihui/xaringan)@[Yihui Xie](https://yihui.name),[emojione](https://github.com/emojione/emojione)]    
+]
+

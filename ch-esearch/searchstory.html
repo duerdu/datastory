@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ch-esearch 搜索数据分析</title>
+    <meta charset="utf-8">
+    <meta name="author" content="小强  .bigfont[beitta , ddqquu#qq.com]" />
+    <meta name="date" content="2017-10-04" />
+    <link rel="stylesheet" href="../css/zh-CN.css" type="text/css" />
+    <link rel="stylesheet" href="../css/emojione.min.css" type="text/css" />
+    <link rel="stylesheet" href="../css/custom.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# ch-esearch 搜索数据分析
+## 信息检索 有问必答
+### 小强 <img style="width:30px;" src="../img/weixin.png" /> .bigfont[beitta , ddqquu#qq.com]
+### 2017-10-04
+
+---
+
+class: center, middle 
+
+
+
+### 终日碌碌，所为无知
+**从 信息匮乏 到 信息泛滥**  
+![mathpsy](../img/infoflood.jpg)  
+
+???
+搜索确实改变了获取信息到方式，从看报到问答，再到百度的宗旨“让人们便捷地获取信息，找到所求”。
+那么我们看一下在坐的你不用花钱的百度，何以为继...
+在这个模式下，就有相应的一些问题需要处理
+
+---
+# 三个关注点
+## 数据 
+## 问题
+## 方法
+
+
+---
+### &lt;font color='blue'&gt;数据&lt;/font&gt;－问题－方法 
+- **场景** 
+#### Set(用户，广告，平台)
+搜索的商业模式图
+可以类比一些dsp的架构
+
+- **数据**  
+网页、广告、搜索、点击... 
+
+---
+### 数据－&lt;font color='blue'&gt;问题－方法&lt;/font&gt; 
+- **信息检索** 
+数以亿计的页面，怎么组织，毫秒响应
+
+- **pagerank** 
+检索方法 
+
+---
+### 数据－&lt;font color='blue'&gt;问题－方法&lt;/font&gt; 
+- **投放** 
+1. 用户：从匿名，到实名认证
+1. 手机：从功能机，到智能机
+1. 运营商：从通话，到流量
+
+- **分群** 
+意图分析、词包... 
+
+### 数据－&lt;font color='blue'&gt;问题－方法&lt;/font&gt; 
+- **定价** 
+博弈论，
+
+- **第二出价** 
+通话、短信、流量、缴费、漫游... 
+
+### 数据－&lt;font color='blue'&gt;问题－方法&lt;/font&gt; 
+- **质量** 
+出的钱多，就会点么
+
+- **点击率预估** 
+从LR到DL 
+
+---
+### 数据－&lt;font color='blue'&gt;问题－方法&lt;/font&gt; 
+- **金主体验** 
+效果分析，提前准备
+
+- **流失预测** 
+
+???
+这个与运营商的例子不同，手机必须品，切换到其他服务商去，理由可以有很多。
+中文搜索，度厂的流量最大，效果好没理由不做，可以转换为效果提升的问题（点击转化）。
+
+---
+class: center, middle
+
+## 谢谢
+
+.smallfont[
+.footnote[[*]powered by [xaringan](https://github.com/yihui/xaringan)@[Yihui Xie](https://yihui.name),[emojione](https://github.com/emojione/emojione)]    
+]
+    </textarea>
+<script src="../libs/remarkjs/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {window.dispatchEvent(new Event('resize'));});
+(function() {var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler"); if (!r) return; s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }"; d.head.appendChild(s);})();</script>
+<script src="../libs/mathjax/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+<script src="../libs/remarkjs/remark-latest.min.js"></script>
+<script src="../libs/jquery/jquery.min.js"></script>
+<script src="../libs/emoji/emojione.min.js"></script>
+<script type="text/javascript">
+     $(document).ready(function() {
+        $(".convert-emoji").each(function() {
+            var original = $(this).html();
+            // use .shortnameToImage if only converting shortnames (for slightly better performance)
+            var converted = emojione.toImage(original);
+            $(this).html(converted);
+        });
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+  }
+});
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
