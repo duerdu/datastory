@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>ch-phone 运营商数据分析</title>
+    <title>ch-phone 通信数据分析与应用</title>
     <meta charset="utf-8">
     <meta name="author" content="小强  .bigfont[beitta , ddqquu#qq.com]" />
-    <meta name="date" content="2017-10-08" />
+    <meta name="date" content="2017-10-11" />
     <link rel="stylesheet" href="../css/zh-CN.css" type="text/css" />
     <link rel="stylesheet" href="../css/emojione.min.css" type="text/css" />
     <link rel="stylesheet" href="../css/custom.css" type="text/css" />
@@ -13,10 +13,10 @@
     <textarea id="source">
 class: center, middle, inverse, title-slide
 
-# ch-phone 运营商数据分析
-## 移动互联数据的应用
+# ch-phone 通信数据分析与应用
+## 运营商的数据与统计
 ### 小强 <img style="width:30px;" src="../img/weixin.png" /> .bigfont[beitta , ddqquu#qq.com]
-### 2017-10-08
+### 2017-10-11
 
 ---
 
@@ -29,21 +29,24 @@ class: center, middle
 ![phone-man-dog](../img/phone-man-dog.jpg)  
 
 ???
-篱笆、女人和狗，开车玩手机有挂的、走路玩手机有挂的。。。手机重于生命哪
-它已经是身体、生命的一部分，回顾下你一天、畅想一下你一生会有多少时间奉献给那些手机。
+篱笆、女人和狗，开车玩手机有挂的、走路玩手机有挂的。。。手机重于生命哪  
+
+它已经是身体、生命的一部分，回顾下你一天、畅想一下你一生会有多少时间奉献给那些手机。  
 图片来源：http://news.ifeng.com/a/20170618/51273845_0.shtml 
 
 ---
 class: center, middle
 
 ### 黑客帝国
-**原来证明你是□你，现在证明\@你是你**
+**原来证明你是□你，现在证明\@你是你**  
 ![man-in-phone](../img/man-in-phone.jpg) 
 
 ???
-原来的数据是纸质档案，原来对数据的理解是人属性的扩展；到单位办事，你要到场，把你摆在中心，证明这个数据说的是你，所以有证明你妈是你妈；
-现在的数据是电子数字，现在对数据对理解等同于人的存在；在网上办事，数据已经在场，把数据摆在中心，证明你是这个数据的生产者，所以有各种数字认证、签名；
-区块链3.0中的表述：数据倒入程序，程序写入数据。
+原来的数据是纸质档案，到单位办事，你要到场，把你摆在中心，证明这个数据说的是你，所以有证明[你妈是你妈](https://baike.baidu.com/item/你妈是你妈)；对数据的理解是人属性的扩展；  
+
+现在的数据是电子数字，现在对数据的理解至少等同于人的存在，有时甚至还能取代你（校园借贷）；在网上办事，数据已经在场，把数据摆在中心，证明你是这个数据的生产者，所以有各种数字认证、签名；  
+
+区块链3.0中的表述：以程序为中心，以数据为中心。  
 图片来源：http://news.ifeng.com/a/20170618/51273845_0.shtml 
 
 ---
@@ -58,13 +61,13 @@ class: center, middle
 ---
 ### &lt;font color='blue'&gt;数据&lt;/font&gt;－问题－方法 
 - **场景**  
-**Set(用户，手机，运营商)**
+**Set(用户，手机，运营商)**  
 1. 用户：从匿名，到实名认证
 1. 手机：从功能机，到智能机
 1. 运营商：从基站，到营业厅
 
 - **数据**  
-通话、短信、流量、缴费、漫游... 
+通话、短信、流量、缴费、漫游...  
 ![phonedata](../img/phonedata.png) 
 
 
@@ -108,13 +111,14 @@ Call Center、Service Provider、Database Marketing、EDM、SMS等等。
 应用：被动营销、主动营销。 
 
 ???
-你们也许听过啤酒和尿布的故事，那有谁见过大超市把它们摆着很近么？我旁边的某家，尿不湿在2层，啤酒在－1层。 不妨碍关联算法是一个朴素有效的方法：已频繁出现的组合更容易搭配，其中置信度、支持度也都是概率的表述。  
+你们也许听过啤酒和尿布的故事，那有谁见过大超市把它们摆着很近么？我旁边的某家，尿不湿在2层，啤酒在－1层。   
+不妨碍关联算法是一个朴素有效的方法：已频繁出现的组合更容易搭配，其中置信度、支持度也都是概率的表述。  
 
 ---
 ### 数据－&lt;font color='blue'&gt;问题－方法&lt;/font&gt; 
 - **留客** 
 留不住用户的人，那就在他对你的爱憎中成长。  
-处于对信号覆盖、资费敏感、服务质量等考虑，用户都有可能离去，电话必不可少，此去必是对岸。  
+处于对信号覆盖、资费敏感、服务质量等考虑，用户都有可能离去，但电话必不可少，此去必是对岸。  
 **问题：预测哪些用户即将流失，以便启动维系挽留的关怀服务**  
 
 - **方法** 
@@ -124,14 +128,15 @@ Call Center、Service Provider、Database Marketing、EDM、SMS等等。
 应用：被动关怀、主动关怀。  
 
 ???
-预测到只是第一步，如何挽留有另一套系统与话术实施。通常也伴随着流失原因、挽留建议等配套方案的出具。
+预测到只是第一步，如何挽留有另一套系统与话术实施。  
+通常也伴随着流失原因、挽留建议等配套方案的出具。
 
 ---
 ### 数据－&lt;font color='blue'&gt;问题－方法&lt;/font&gt; 
 - **欺诈** 
 现在理解正常用户更换号码，还是挺麻烦的。  
-但漫游高悬的时候，普通用户的号码更换也还是挺频繁的，学校一个、工作基本换了、换工作换城市换号码、合约机再换。  
-没有实名，违约成本低，打到欠费换了就是。  
+但漫游高悬的时候，普通用户的号码更换也还是挺频繁的，学校一个、工作后基本换了、换工作换城市换号码、合约机再换...    
+没有实名，违约成本低，打到欠费换了就是。   
 **问题：预测可能欠费违约的用户，降低其可透支话费。**  
 
 - **数据** 
@@ -141,7 +146,8 @@ Call Center、Service Provider、Database Marketing、EDM、SMS等等。
 应用：风险等级标注，透支时长调整。  
 
 ???
-如果有一个那个年代最长听到的话评选：我选一个“您还可以通话1分钟”，IP电话卡。后付费这个事情是利弊双向的，让用户无感知地多消费了，他充值时候的扣抵等于增加收入，同时有信用就有违约。  
+如果有一个那个年代最长听到的话评选：我选一个“您还可以通话1分钟”，IP电话卡。  
+后付费这个事情是利弊双向的，让用户无感知地多消费了，他充值时候的扣抵等于增加收入，同时有信用就有违约。  
 
 ---
 ### 数据－&lt;font color='blue'&gt;问题－方法&lt;/font&gt; 
@@ -151,10 +157,10 @@ Call Center、Service Provider、Database Marketing、EDM、SMS等等。
 **问题：争夺某群体用户市场，打降价牌，那么套餐定价多少比较合适？**  
 
 - **数据**  
-标注：用户已有的不同产品的消费组合，无监督不标注。   
-数据：过往对不同产品的使用记录。  
-模型：无监督，聚类算法、关联算法；有监督，逻辑回归。  
-应用：被动营销、主动营销。  
+标注：无监督不标注。   
+数据：自身及对手一定数量的用户消费数据。  
+模型：消费预测，逻辑回归；概率分布，博弈论。  
+应用：针对某群体的套餐的定价参考。  
 
 ???
 没有复杂，何来溢价。  
@@ -168,7 +174,7 @@ Call Center、Service Provider、Database Marketing、EDM、SMS等等。
 **问题：争夺某群体用户市场，打降价牌，那么套餐定价多少比较合适？**  
 
 - **方法**  
-![pricedist](../img/pricedist3.png) 
+![pricedist](../img/pricedist3.png)   
 
 ---
 ### 数据－&lt;font color='blue'&gt;问题－方法&lt;/font&gt; 
@@ -176,18 +182,18 @@ Call Center、Service Provider、Database Marketing、EDM、SMS等等。
 分群也好、预测也罢，多是用群体的特征来预测个体的偏好。  
 **问题：以个人的行为轨迹，预测个人的消费预期**  
 
-- **方法**  
-![timeline](../img/timeflow.png) 
+- **方法**  [⬅️](../datastory.html#12)   
+![timeline](../img/timeflow.png)   
 
 ???
 想法很简单，以每个人的时间序列数据，预测其消费、流失等行为，假设是外部环境带来的影响都反应在了这个人的历史行为之中。做法：写了一个循环，每个人建一个时间序列模型，几百万人，不出意外地没有算完。  
 现在一些deep的模型，把id也作为特征，是一个比简单循环更美妙的方式，deep＋wide。 
-图片参考：https://github.com/FlowingMedia/TimeFlow/wiki 
+图片参考：https://github.com/FlowingMedia/TimeFlow/wiki  
 
 ---
 class: center, middle
 
-## [返回](../datastory.html)
+## [返回👈](../datastory.html#12)
 
 .smallfont[
 .footnote[[*]powered by [xaringan](https://github.com/yihui/xaringan)@[Yihui Xie](https://yihui.name),   [emojione](https://github.com/emojione/emojione)]    

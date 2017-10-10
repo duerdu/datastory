@@ -1,5 +1,5 @@
 ---
-title: "ch-economy 经济数据分析"
+title: "ch-economy 经济数据分析与应用"
 subtitle: "社会人 经济人"
 author: '小强 <img style="width:30px;" src="../img/weixin.png" /> .bigfont[beitta , ddqquu#qq.com]'
 date: "`r Sys.Date()`"
@@ -7,8 +7,6 @@ output:
   xaringan::moon_reader:
     css: ["../css/zh-CN.css","../css/emojione.min.css","../css/custom.css"]
     chakra: "../libs/remarkjs/remark-latest.min.js"
-    includes:
-      after_body: "../libs/after2.html"
     lib_dir: libs
     nature:
       highlightStyle: github
@@ -16,7 +14,7 @@ output:
       countIncrementalSlides: false
 
 ---
-class: center, middle 
+class: middle 
 
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
@@ -24,27 +22,23 @@ options(htmltools.dir.version = FALSE)
 
 ### 社会性与经济性
 **群体与交换**  
-![mathpsy](../img/economy.jpg)  
+经济在人类社会生活中已无孔不入，人的行为已深深刻上了经济的烙印。  
+从个体到组织，从金融到整治，从微观到宏观...  
+![eco-xueke](../img/eco-xueke.jpg)  
 
----
-# 三个关注点
-## 数据 
-## 问题
-## 方法
-
+???
+图片来源：https://zhidao.baidu.com/question/394092883748215325.html  
 
 ---
 ### <font color='blue'>数据</font>－问题－方法 
 - **场景** 
-#### Set(人，财，物)
-提高生活质量，必然走向分工与交换。人人为我，我为人人，在交换的当下其实是实现的。
-老板对我讲：商人是最美丽的人，他们把一批人生产的东西带给另一批人消费，从事的是最为利他的行为。
+#### Set(劳动者，生产工具，劳动对象)
+![eco-social](../img/eco-social.jpeg)  
 
-- **数据**  
-不限了，有人的地方就有经济，一个人也有。 
+- **数据**：一切社会活动都生产商品和数据   
 
 ???
-线上线下的融合越来越深入，这里的平台，泛指零售和电商。接下来的部分问题，是线下零售和线上电商都要考虑的。
+提高社会生产效率，必然走向分工与交换。  
 
 ---
 ### 数据－<font color='blue'>问题－方法</font> 

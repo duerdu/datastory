@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ch-techfin 互金的数据分析与应用</title>
+    <meta charset="utf-8">
+    <meta name="author" content="小强  .bigfont[beitta , ddqquu#qq.com]" />
+    <meta name="date" content="2017-10-11" />
+    <link rel="stylesheet" href="../css/zh-CN.css" type="text/css" />
+    <link rel="stylesheet" href="../css/emojione.min.css" type="text/css" />
+    <link rel="stylesheet" href="../css/custom.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# ch-techfin 互金的数据分析与应用
+## 科技金融 服务你我
+### 小强 <img style="width:30px;" src="../img/weixin.png" /> .bigfont[beitta , ddqquu#qq.com]
+### 2017-10-11
+
+---
+
+class: middle 
+
+
+
+### 金钱流动的体系
+- **一行三会**  
+![fin-simple](../img/fin-simple.jpeg)  
+
+???
+图片来源：http://jingyan.baidu.com/article/ed2a5d1f2f73e309f6be1786.html 
+
+---
+### 金钱流动的体系
+- **科技金融**  
+![fin-tech](../img/fin-tech.jpeg)  
+
+???
+图片来源：[金融和科技结合在不同领域的应用](http://www.weiyangx.com/194277.html)   
+
+---
+### &lt;font color='blue'&gt;数据&lt;/font&gt;－问题－方法 
+- **场景** 
+#### Set(用户，资金，平台)
+1. 用户：个人、企业、牲畜、财产...  
+1. 资金：存钱、理财、支付、结算、贷款、融资...   
+1. 平台：银行、交易所、保险公司、互金平台...    
+
+- **数据**  
+
+  涵盖你一言一行的方方面面，征信、通话、上网、借贷、车房、父母、子女、社保、医疗、健身、饮食、工作、社交、指纹、声纹、刷脸...  
+
+  这些你存在过的证明，就是你的卖身契。  
+
+???
+金融对数据的需求和依赖更胜  
+
+---
+### 数据－&lt;font color='blue'&gt;问题－方法&lt;/font&gt; 
+- **信用评级**   
+![fin-credit1](../img/fin-credit1.png)   
+
+???
+人无信不立,业无信不兴,国无信则衰    
+在信息流通愈发便捷的今天，信用会越来越回归到你我的生活  
+
+---
+### 数据－&lt;font color='blue'&gt;问题－方法&lt;/font&gt; 
+- **信用评级**   
+![fin-credit2](../img/fin-credit2.png)   
+
+???
+评分卡、逻辑回归、GBDT、集成学习...   
+
+---
+### 数据－&lt;font color='blue'&gt;问题－方法&lt;/font&gt; 
+- **反欺诈** 有钱的地方就有江湖  
+
+![fin-anti0](../img/fin-anti0.jpg)  
+
+???
+[TOMsInsight：中国互联网地下产业链分析白皮书](http://www.199it.com/archives/527869.html)  
+图片来源：http://www.freebuf.com/articles/network/84192.html
+
+---
+### 数据－&lt;font color='blue'&gt;问题－方法&lt;/font&gt; 
+- **反欺诈** 有钱的地方就有江湖  
+
+  [TOMsInsight](http://www.tomsinsight.com/analysis.htm)-[中国互联网地下产业链分析白皮书](http://www.199it.com/archives/527869.html)  
+
+- **方法**  
+
+标注：样本少，偏度大。   
+数据：各种行为中找寻异常。  
+模型：cluster、lr、rf、gbdt、nnet、word2vec、dl，[反欺诈中的机器学习](https://www.zhihu.com/question/30508773)  
+应用：识好抓坏。 
+
+---
+### 数据－&lt;font color='blue'&gt;问题－方法&lt;/font&gt; 
+- **反欺诈** 有钱的地方就有江湖  
+![fin-anti1](../img/fin-anti1.png)  
+
+---
+### 数据－&lt;font color='blue'&gt;问题－方法&lt;/font&gt; 
+- **地址分析与应用**  
+分词、检索、验真、比对、补全...  
+
+![fin-adress](../img/fin-adress.png)  
+
+---
+### 数据－&lt;font color='blue'&gt;问题－方法&lt;/font&gt; 
+- **关系网络研究与应用**  [⬅️](../datastory.html#12)   
+信用、欺诈、推荐、授信、复联...  
+
+![fin-relation](../img/fin-relation.png)  
+
+---
+class: center, middle
+
+## [返回👈](../datastory.html#12)  
+
+.smallfont[
+.footnote[[*]powered by [xaringan](https://github.com/yihui/xaringan)@[Yihui Xie](https://yihui.name),[emojione](https://github.com/emojione/emojione)]    
+]
+    </textarea>
+<script src="../libs/remarkjs/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {window.dispatchEvent(new Event('resize'));});
+(function() {var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler"); if (!r) return; s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }"; d.head.appendChild(s);})();</script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+  }
+});
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
