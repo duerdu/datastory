@@ -50,6 +50,8 @@ class: inverse
 
 - 前后划重点，中间讲故事  .convert-emoji[:white_check_mark:]   
 
+- slides code: https://github.com/duerdu/datastory   
+
 ???
 今天不做宏观大论，看书的目录、或者课程的设置就好。  
 
@@ -181,6 +183,19 @@ class: inverse
 
 ???
 数据之河湍流不息，你是享受其中，还是抓住什么，还是随波逐流，尽在你心...  
+
+---
+class: inverse
+
+## 但是  
+大道至简，大数从小。  
+
+![lazhuai](./img/lazhuai.png)   
+
+所谓大数据，占据了太多的空间和焦点，容易忽视那些看起来渺小实际是症结的黑天鹅，更有甚者，把最初的决策之源都忽视了。  
+
+???
+所谓大数据，占据了太多的空间和焦点，容易忽视那些看起来渺小实际是症结的黑天鹅，更有甚者，把最初的决策之源都忽视了。  
 
 ---
 class: inverse, middle
